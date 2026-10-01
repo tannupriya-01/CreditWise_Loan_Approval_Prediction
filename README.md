@@ -11,7 +11,6 @@
   <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge">
   <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge">
 </p>
----
 
 ## Overview
 
@@ -261,41 +260,42 @@ Shows the distribution of applicant income values in the dataset.
 
 ![Applicant Income Distribution](plots/applicant_income_distribution.png)
 
-### 5. Credit Score Distribution
+### 5. CoApplicant Income Distribution
 
-Shows the distribution of credit scores among the loan applicants.
+Shows the distribution of co-applicant income values in the dataset.
 
-![Credit Score Distribution](plots/credit_score_distribution.png)
+![Coapplicant Income Distribution](plots/coapplicant_income_distribution.png)
 
-### 6. Correlation Heatmap
-
-Displays the correlation between numerical financial and credit-related variables.
-
-![Correlation Heatmap](plots/correlation_heatmap.png)
-
-### 7. Applicant Income by Loan Approval
-
-Compares applicant income levels across approved and non-approved loan applications.
-
-![Applicant Income by Loan Approval](plots/applicant_income_by_loan_approval.png)
-
-### 8. Applicant Income vs Loan Approval
+### 6. Applicant Income vs Loan Approval
 
 Visualizes the relationship between applicant income and loan approval status.
 
 ![Applicant Income vs Loan Approval](plots/applicant_income_vs_loan_approval.png)
 
-### 9. Loan Approval by Education
-
-Shows the relationship between applicants' education levels and loan approval outcomes.
-
-![Loan Approval by Education](plots/loan_approval_by_education.png)
-
-### 10. Loan Approved Boxplots
+### 7. Loan Approved Boxplots
 
 Uses boxplots to compare the distribution of relevant numerical features based on loan approval status.
 
 ![Loan Approved Boxplots](plots/loan_approved_boxplots.png)
+
+
+### 8. Credit Score Distribution
+
+Shows the distribution of credit scores among the loan applicants.
+
+![Credit Score Distribution](plots/credit_score_distribution.png)
+
+### 9. Applicant Income by Loan Approval
+
+Compares applicant income levels across approved and non-approved loan applications.
+
+![Applicant Income by Loan Approval](plots/applicant_income_by_loan_approval.png)
+
+### 10. Correlation Heatmap
+
+Displays the correlation between numerical financial and credit-related variables.
+
+![Correlation Heatmap](plots/correlation_heatmap.png)
 
 ---
 
