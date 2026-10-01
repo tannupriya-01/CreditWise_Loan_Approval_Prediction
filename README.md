@@ -2,6 +2,14 @@
 
 ### Supervised Machine Learning for Loan Approval Classification
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-teal)
+
 ---
 
 ## Overview
