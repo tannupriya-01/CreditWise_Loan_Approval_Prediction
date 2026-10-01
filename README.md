@@ -1,7 +1,8 @@
-# 💳 CreditWise Loan Approval Prediction
+<h1 align="center">💳 CreditWise Loan Approval Prediction</h1>
 
-### Supervised Machine Learning for Loan Approval Classification
+<p align="center">Supervised ML pipeline for Loan Approval Classification using Logistic Regression, KNN and Naive Bayes</p>
 
+<p align="center">
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
@@ -9,7 +10,7 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-teal)
-
+</p>
 ---
 
 ## Overview
