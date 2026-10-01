@@ -3,13 +3,13 @@
 <p align="center">Supervised ML pipeline for Loan Approval Classification using Logistic Regression, KNN and Naive Bayes</p>
 
 <p align="center">
-![Python](https://img.shields.io/badge/Python-3.x-blue)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine%20Learning-orange)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
-![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-teal)
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white">
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge">
 </p>
 ---
 
@@ -245,7 +245,7 @@ Shows the distribution of approved and non-approved loan applications.
 
 ### 2. Gender Distribution
 
-Shows the distribution of applicants across gender categories.
+Shows the distribution of applicants across different gender categories.
 
 ![Gender Distribution](plots/gender_distribution.png)
 
@@ -255,33 +255,70 @@ Shows the distribution of applicants according to their education level.
 
 ![Education Level Distribution](plots/education_level_distribution.png)
 
-### 4. Correlation Analysis
+### 4. Applicant Income Distribution
 
-Correlation visualizations are used to examine relationships between numerical financial and credit-related variables.
+Shows the distribution of applicant income values in the dataset.
 
-### 5. Model Evaluation
+![Applicant Income Distribution](plots/applicant_income_distribution.png)
 
-Confusion matrices and other model evaluation plots are generated to analyse classification performance.
+### 5. Credit Score Distribution
+
+Shows the distribution of credit scores among the loan applicants.
+
+![Credit Score Distribution](plots/credit_score_distribution.png)
+
+### 6. Correlation Heatmap
+
+Displays the correlation between numerical financial and credit-related variables.
+
+![Correlation Heatmap](plots/correlation_heatmap.png)
+
+### 7. Applicant Income by Loan Approval
+
+Compares applicant income levels across approved and non-approved loan applications.
+
+![Applicant Income by Loan Approval](plots/applicant_income_by_loan_approval.png)
+
+### 8. Applicant Income vs Loan Approval
+
+Visualizes the relationship between applicant income and loan approval status.
+
+![Applicant Income vs Loan Approval](plots/applicant_income_vs_loan_approval.png)
+
+### 9. Loan Approval by Education
+
+Shows the relationship between applicants' education levels and loan approval outcomes.
+
+![Loan Approval by Education](plots/loan_approval_by_education.png)
+
+### 10. Loan Approved Boxplots
+
+Uses boxplots to compare the distribution of relevant numerical features based on loan approval status.
+
+![Loan Approved Boxplots](plots/loan_approved_boxplots.png)
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 CreditWise_Loan_Approval_Prediction/
 │
 ├── loan_approval_data.csv
-│
 ├── loan_system.ipynb
-│
 ├── README.md
-│
 ├── requirements.txt
-│
 ├── .gitignore
+├── .gitattributes
 │
 └── plots/
-    ├── loan_approval_distribution.png
-    ├── gender_distribution.png
+    ├── applicant_income_by_loan_approval.png
+    ├── applicant_income_distribution.png
+    ├── applicant_income_vs_loan_approval.png
+    ├── coapplicant_income_distribution.png
+    ├── correlation_heatmap.png
+    ├── credit_score_distribution.png
     ├── education_level_distribution.png
-    └── ...
+    ├── gender_distribution.png
+    ├── loan_approved_boxplots.png
+    └── loan_approval_distribution.png
